@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css"/>
+    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
     <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
@@ -47,15 +47,15 @@
     <!-- /.preloader -->
     <div class="page-wrapper">
 
-       
+
         <header class="main-header main-header--one  clearfix">
             <div class="main-header--one__top clearfix">
                 <div class="container">
                     <div class="main-header--one__top-inner clearfix">
-                        <div class="main-header--one__top-left">
+                        <div class="main-header--one__top-left" id="scroll-logo" style="display: none">
                             <div class="main-header--one__top-logo">
-                                <a href="index.html"><img src="assets/images/resources/curlybracelogo.png" height="75" width="200"
-                                        alt="curlybrace logo" /></a>
+                                <a href="index.html"><img src="assets/images/resources/curlybracelogo.png" height="75"
+                                        width="200" alt="curlybrace logo"></a>
                             </div>
                         </div>
 
@@ -109,14 +109,14 @@
 
                                 <div class="left">
                                     <ul class="main-menu__list">
-                                        <li class="dropdown current">
+                                        <li>
                                             <a href="index.html">Home</a>
                                         </li>
                                         <li><a href="about.html">About</a></li>
                                         <li class="dropdown">
                                             <a href="courses.html">Courses</a>
                                         </li>
-                                        <li class="dropdown">
+                                        <li>
                                             <a href="team.html"> Team</a>
                                         </li>
                                         <!-- <li class="dropdown">
@@ -136,11 +136,6 @@
         </header>
 
 
-        <div class="stricky-header stricked-menu main-menu">
-            <div class="sticky-header__content">
-
-            </div><!-- /.sticky-header__content -->
-        </div><!-- /.stricky-header -->
 
 
         <div class="stricky-header stricked-menu main-menu">
@@ -150,42 +145,50 @@
         </div><!-- /.stricky-header -->
 
 
+        <div class="stricky-header stricked-menu main-menu">
+            <div class="sticky-header__content">
 
-    <!--Page Header Start-->
-    <section class="page-header clearfix" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg);">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="page-header__wrapper clearfix">
-                        <div class="page-header__title">
-                            <h2>Gallery</h2>
-                        </div>
-                        <div class="page-header__menu">
-                            <ul class="page-header__menu-list list-unstyled clearfix">
-                                <li><a href="index.html">Home</a></li>
-                                <li class="active">Gallery</li>
-                            </ul>
+            </div><!-- /.sticky-header__content -->
+        </div><!-- /.stricky-header -->
+
+
+
+        <!--Page Header Start-->
+        <section class="page-header clearfix"
+            style="background-image: url(assets/images/backgrounds/page-header-bg.jpg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="page-header__wrapper clearfix">
+                            <div class="page-header__title">
+                                <h2>Gallery</h2>
+                            </div>
+                            <div class="page-header__menu">
+                                <ul class="page-header__menu-list list-unstyled clearfix">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li class="active">Gallery</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+
                 </div>
-
             </div>
-        </div>
-    </section>
-    <!--Page Header End-->
+        </section>
+        <!--Page Header End-->
 
 
-    <!--Blog One Start-->
-    <section class="blog-one blog-one--blog">
-        <div class="container">
-            <div class="row">
-                <!--Start Single Blog One-->
-                <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div class="blog-one__single">
-                        <div class="blog-one__single-img">
-                            <img src="assets/images/gallery/contestguestspeech.jpg" alt=""/>
-                        </div>
-                        <!-- <div class="blog-one__single-content">
+        <!--Blog One Start-->
+        <section class="blog-one blog-one--blog">
+            <div class="container">
+                <div class="row">
+                    <!--Start Single Blog One-->
+                    <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="blog-one__single">
+                            <div class="blog-one__single-img">
+                                <img src="assets/images/gallery/contestguestspeech.jpg" alt="" />
+                            </div>
+                            <!-- <div class="blog-one__single-content">
                             <div class="blog-one__single-content-overlay-mata-info">
                                 <ul class="list-unstyled">
                                     <li><a href="#"><span class="icon-clock"></span>20 June</a></li>
@@ -196,17 +199,17 @@
                             <h2 class="blog-one__single-content-title"><a href="Gallery-details.html">Helping Answers Stand out in Discussions</a></h2>
                             <p class="blog-one__single-content-text">Lorem ipsum is simply free text on used by copytyping refreshing the whole area.</p>
                         </div> -->
-                    </div>
-                </div>
-                <!--End Single Blog One-->
-
-                <!--Start Single Blog One-->
-                <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div class="blog-one__single">
-                        <div class="blog-one__single-img">
-                            <img src="assets/images/gallery/contestparentsmeeting.jpg" alt=""/>
                         </div>
-                        <!-- <div class="blog-one__single-content">
+                    </div>
+                    <!--End Single Blog One-->
+
+                    <!--Start Single Blog One-->
+                    <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="blog-one__single">
+                            <div class="blog-one__single-img">
+                                <img src="assets/images/gallery/contestparentsmeeting.jpg" alt="" />
+                            </div>
+                            <!-- <div class="blog-one__single-content">
                             <div class="blog-one__single-content-overlay-mata-info">
                                 <ul class="list-unstyled">
                                     <li><a href="#"><span class="icon-clock"></span>20 June</a></li>
@@ -217,86 +220,87 @@
                             <h2 class="blog-one__single-content-title"><a href="Gallery-details.html">Helping Answers Stand out in Discussions</a></h2>
                             <p class="blog-one__single-content-text">Lorem ipsum is simply free text on used by copytyping refreshing the whole area.</p>
                         </div> -->
-                    </div>
-                </div>
-                <!--End Single Blog One-->
-
-                <!--Start Single Blog One-->
-                <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
-                    <div class="blog-one__single">
-                        <div class="blog-one__single-img">
-                            <img src="assets/images/gallery/drawing images.jpg" alt=""/>
                         </div>
-                        
                     </div>
-                </div>
-                <!--End Single Blog One-->
+                    <!--End Single Blog One-->
 
-                <!--Start Single Blog One-->
-                <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <div class="blog-one__single">
-                        <div class="blog-one__single-img">
-                            <img src="assets/images/gallery/groupmeeting2.jpg" alt=""/>
-                        </div>
-                        
-                    </div>
-                </div>
-                <!--End Single Blog One-->
+                    <!--Start Single Blog One-->
+                    <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="blog-one__single">
+                            <div class="blog-one__single-img">
+                                <img src="assets/images/gallery/drawing images.jpg" alt="" />
+                            </div>
 
-                <!--Start Single Blog One-->
-                <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
-                    <div class="blog-one__single">
-                        <div class="blog-one__single-img">
-                            <img src="assets/images/gallery/photoshopclass.jpg" alt=""/>
                         </div>
-                        
                     </div>
-                </div>
-                <!--End Single Blog One-->
+                    <!--End Single Blog One-->
 
-                <!--Start Single Blog One-->
-                <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
-                    <div class="blog-one__single">
-                        <div class="blog-one__single-img">
-                            <img src="assets/images/gallery/videoeditingcourse.jpg" alt=""/>
-                        </div>
-                        
-                    </div>
-                </div>
-                <!--End Single Blog One-->
+                    <!--Start Single Blog One-->
+                    <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="blog-one__single">
+                            <div class="blog-one__single-img">
+                                <img src="assets/images/gallery/groupmeeting2.jpg" alt="" />
+                            </div>
 
-                <!--Start Single Blog One-->
-                <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
-                    <div class="blog-one__single">
-                        <div class="blog-one__single-img">
-                            <img src="assets/images/gallery/groupmeeting.jpg" alt=""/>
                         </div>
-                        
                     </div>
-                </div>
-                <!--End Single Blog One-->
+                    <!--End Single Blog One-->
 
-                <!--Start Single Blog One-->
-                <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
-                    <div class="blog-one__single">
-                        <div class="blog-one__single-img">
-                            <img src="assets/images/gallery/participantsdrawing.jpg" alt=""/>
+                    <!--Start Single Blog One-->
+                    <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
+                        <div class="blog-one__single">
+                            <div class="blog-one__single-img">
+                                <img src="assets/images/gallery/photoshopclass.jpg" alt="" />
+                            </div>
+
                         </div>
-                        
                     </div>
+                    <!--End Single Blog One-->
+
+                    <!--Start Single Blog One-->
+                    <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="blog-one__single">
+                            <div class="blog-one__single-img">
+                                <img src="assets/images/gallery/videoeditingcourse.jpg" alt="" />
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--End Single Blog One-->
+
+                    <!--Start Single Blog One-->
+                    <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="blog-one__single">
+                            <div class="blog-one__single-img">
+                                <img src="assets/images/gallery/groupmeeting.jpg" alt="" />
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--End Single Blog One-->
+
+                    <!--Start Single Blog One-->
+                    <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="blog-one__single">
+                            <div class="blog-one__single-img">
+                                <img src="assets/images/gallery/participantsdrawing.jpg" alt="" />
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--End Single Blog One-->
                 </div>
-                <!--End Single Blog One-->
             </div>
-        </div>
-    </section>
-    <!--Blog One End-->
+        </section>
+        <!--Blog One End-->
 
 
 
 
-    <!--Start Footer One-->
+        <!--Start Footer One-->
         <footer class="footer-one">
-            <div class="footer-one__bg" style="background-image: url(assets/images/backgrounds/curlybracebackground.jpg);">
+            <div class="footer-one__bg"
+                style="background-image: url(assets/images/backgrounds/curlybracebackground.jpg);">
             </div><!-- /.footer-one__bg -->
             <div class="footer-one__top">
                 <div class="container">
@@ -305,7 +309,8 @@
                         <div class="col-xl-2 col-lg-4 col-md-4 wow animated fadeInUp" data-wow-delay="0.1s">
                             <div class="footer-widget__column footer-widget__about">
                                 <div class="footer-widget__about-logo">
-                                    <a href="index.html"><img src="assets/images/backgrounds/curlybracebackground.jpg" alt=""></a>
+                                    <a href="index.html"><img src="assets/images/backgrounds/curlybracebackground.jpg"
+                                            alt=""></a>
                                 </div>
                             </div>
                         </div>
@@ -351,7 +356,7 @@
                                 <p class="text">1st Floor PSS Jayam Towers, Teams Colony, Thoothukudi, Tamil Nadu</p>
                                 <p><a href="mailto:info@templatepath.com">curlybraceeducation@gmail.com</a></p>
                                 <p class="phone"><a href="tel:0461 350 0010">0461 350 0010
-                                </a></p>
+                                    </a></p>
                             </div>
                         </div>
                         <!--End Footer Widget Column-->
@@ -360,9 +365,12 @@
                         <div class="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp" data-wow-delay="0.9s">
                             <div class="footer-widget__column footer-widget__social-links">
                                 <ul class="footer-widget__social-links-list list-unstyled clearfix">
-                                    <li><a href="https://www.facebook.com/curlybraceorg"><i class="fab fa-facebook"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/company/curlybrace/?viewAsMember=true"><i class="fab fa-linkedin"></i></a></li>
-                                    <li><a href="https://www.instagram.com/curlybraceorg/"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://www.facebook.com/curlybraceorg"><i
+                                                class="fab fa-facebook"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/curlybrace/?viewAsMember=true"><i
+                                                class="fab fa-linkedin"></i></a></li>
+                                    <li><a href="https://www.instagram.com/curlybraceorg/"><i
+                                                class="fab fa-instagram"></i></a></li>
                                     <!-- <li><a href="#"><i class="fab fa-dribbble"></i></a></li> -->
                                 </ul>
                             </div>
@@ -410,8 +418,8 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/resources/mobilemenu_logo.png"
-                        width="155" alt="" /></a>
+                <a href="index.html" aria-label="logo image"><img
+                        src="assets/images/resources/curlybrace logo white-02.png" width="155" alt="" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
@@ -419,17 +427,18 @@
 
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
-                    <i class="icon-phone-call"></i>
+                    <i class="icon-letter"></i>
                     <a href="mailto:curlybraceeducation@gmail.com">curlybraceeducation@gmail.com</a>
                 </li>
                 <li>
-                    <i class="icon-letter"></i>
+                    <i class="icon-phone-call"></i>
                     <a href="tel:0461 350 0010">0461 350 0010</a>
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__top">
                 <div class="mobile-nav__social">
-                    <a href="https://www.linkedin.com/company/curlybrace/?viewAsMember=true" class="fab fa-linkedin"></a>
+                    <a href="https://www.linkedin.com/company/curlybrace/?viewAsMember=true"
+                        class="fab fa-linkedin"></a>
                     <a href="https://www.facebook.com/curlybraceorg" class="fab fa-facebook-square"></a>
                     <!-- <a href="#" class="fab fa-pinterest-p"></a> -->
                     <a href="https://www.instagram.com/curlybraceorg/" class="fab fa-instagram"></a>
@@ -457,6 +466,8 @@
         <!-- /.search-popup__content -->
     </div>
     <!-- /.search-popup -->
+
+
 
 
 

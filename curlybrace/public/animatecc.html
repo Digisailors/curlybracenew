@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css"/>
+    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
     <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
@@ -51,10 +51,10 @@
             <div class="main-header--one__top clearfix">
                 <div class="container">
                     <div class="main-header--one__top-inner clearfix">
-                        <div class="main-header--one__top-left">
+                        <div class="main-header--one__top-left" id="scroll-logo" style="display: none">
                             <div class="main-header--one__top-logo">
-                                <a href="index.html"><img src="assets/images/resources/curlybracelogo.png" height="75" width="200"
-                                        alt="curlybrace logo" /></a>
+                                <a href="index.html"><img src="assets/images/resources/curlybracelogo.png" height="75"
+                                        width="200" alt="curlybrace logo"></a>
                             </div>
                         </div>
 
@@ -110,19 +110,19 @@
 
                                 <div class="left">
                                     <ul class="main-menu__list">
-                                        <li class="dropdown current">
+                                        <li>
                                             <a href="index.html">Home</a>
                                         </li>
                                         <li><a href="about.html">About</a></li>
                                         <li class="dropdown">
                                             <a href="courses.html">Courses</a>
                                         </li>
-                                        <li class="dropdown">
+                                        <li>
                                             <a href="team.html"> Team</a>
                                         </li>
-                                        <li class="dropdown">
+                                        <!-- <li class="dropdown">
                                             <a href="gallery.html">Gallery</a>
-                                        </li>
+                                        </li> -->
                                         <li><a href="contact.html">Contact</a></li>
                                     </ul>
                                 </div>
@@ -136,6 +136,8 @@
 
         </header>
 
+
+
         <div class="stricky-header stricked-menu main-menu">
             <div class="sticky-header__content">
 
@@ -144,39 +146,41 @@
 
 
 
-    <!--Page Header Start-->
-    <section class="page-header clearfix" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg);">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="page-header__wrapper clearfix">
-                        <div class="page-header__title">
-                            <h2>Course Details</h2>
-                        </div>
-                        <div class="page-header__menu">
-                            <ul class="page-header__menu-list list-unstyled clearfix">
-                                <li><a href="index.html">Home</a></li>
-                                <li class="active"></a>Course</li>
-                            </ul>
+        <!--Page Header Start-->
+        <section class="page-header clearfix"
+            style="background-image: url(assets/images/backgrounds/Adobe-Animate-CC-Overview.png);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="page-header__wrapper clearfix">
+                            <div class="page-header__title">
+                                <h2>Adobe Animate-cc</h2>
+                            </div>
+                            <div class="page-header__menu">
+                                <ul class="page-header__menu-list list-unstyled clearfix">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li class="active"></a>Course</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+
                 </div>
-
             </div>
-        </div>
-    </section>
-    <!--Page Header End-->
+        </section>
+        <!--Page Header End-->
 
-    <!--Start Course Details-->
-    <section class="course-details">
-        <div class="container">
-            <div class="row">
-                <!--Start Course Details Content-->
-                <div class="col-xl-8 col-lg-8">
-                    <div class="course-details__content">
-                        <!--Start Single Courses One-->
-                        <div class="courses-one__single style2 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
-                            <!-- <div class="courses-one__single-img">
+        <!--Start Course Details-->
+        <section class="course-details">
+            <div class="container">
+                <div class="row">
+                    <!--Start Course Details Content-->
+                    <div class="col-xl-8 col-lg-8">
+                        <div class="course-details__content">
+                            <!--Start Single Courses One-->
+                            <div class="courses-one__single style2 wow fadeInLeft" data-wow-delay="0ms"
+                                data-wow-duration="1000ms">
+                                <!-- <div class="courses-one__single-img">
                                 <img src="assets/images/resources/course-details-img1.jpg" alt=""/>
                                 <div class="overlay-text">
                                     <p>Featured</p>
@@ -186,19 +190,8 @@
                                 <!-- <div class="courses-one__single-content-overlay-img">
                                     <img src="assets/images/resources/course-details-overlay-img.png" alt=""/>
                                 </div> -->
-                                <h6 class="courses-one__single-content-name">Kevin Martin <span>Recently Updated 20 June, 2021</span></h6>
-                                <h4 class="courses-one__single-content-title">Become a React Developer</h4>
-                                <div class="courses-one__single-content-review-box">
-                                    <!-- <ul class="list-unstyled">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul> -->
-                                    
-                                </div>
-                               
+                                <h5>Syllabus</h5><br>
+                                <h4 class="courses-one__single-content-title">Adobe Animate-cc</h4>
 
                                 <div class="course-details__content-list">
                                     <ul class="list-unstyled">
@@ -207,7 +200,7 @@
                                                 <span class="icon-confirmation"></span>
                                             </div>
                                             <div class="text">
-                                                <p>It has survived not only five centuries</p>
+                                                <p>Lorem Ipsum It has survived not only five centuries</p>
                                             </div>
                                         </li>
 
@@ -243,417 +236,30 @@
                             </div>
                         </div>
                         <!--End Single Courses One-->
-
-                        <!--Start Course Details Curriculum-->
-                        <!-- <div class="course-details__curriculum">
-                            <h2 class="course-details__curriculum-title">Curriculum</h2>
-                            <!--Start Single Course Details Curriculum-->
-                            <!-- <div class="course-details__curriculum-single">
-                                <h3 class="course-details__curriculum-single-title">Starting Syllabuss Level Course</h3>
-                                <p class="course-details__curriculum-single-text">Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since.</p>
-                                <ul class="course-details__curriculum-list list-unstyled">
-                                    <li>
-                                        <div class="course-details__curriculum-list-left">
-                                            <div class="course-details__curriculum-list-left-icon">
-                                                <i class="fa fa-play" aria-hidden="true"></i>
-                                            </div>
-                                            <a href="#" class="course-details__curriculum-list-left-title">Introduction to Editing</a>
-                                            <span>Preview</span>
-                                        </div>
-                                        <div class="course-details__curriculum-list-right">
-                                            <p>16 minutes</p>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="course-details__curriculum-list-left">
-                                            <div class="course-details__curriculum-list-left-icon">
-                                                <i class="fa fa-play" aria-hidden="true"></i>
-                                            </div>
-                                            <a href="#" class="course-details__curriculum-list-left-title">Overview of Editing</a>
-                                            <span>Preview</span>
-                                        </div>
-                                        <div class="course-details__curriculum-list-right">
-                                            <p>10 minutes</p>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="course-details__curriculum-list-left">
-                                            <div class="course-details__curriculum-list-left-icon">
-                                                <i class="fa fa-folder" aria-hidden="true"></i>
-                                            </div>
-                                            <a href="#" class="course-details__curriculum-list-left-title">Basic Editing Technology</a>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="course-details__curriculum-list-left">
-                                            <div class="course-details__curriculum-list-left-icon style2">
-                                                <i class="fa fa-comment" aria-hidden="true"></i>
-                                            </div>
-                                            <a href="#" class="course-details__curriculum-list-left-title">Quiz</a>
-                                        </div>
-                                        <div class="course-details__curriculum-list-right">
-                                            <p>6 questions</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div> -->
-                            <!--End Single Course Details Curriculum-->
-
-                            <!--Start Single Course Details Curriculum-->
-                            <!-- <div class="course-details__curriculum-single mar-buttom0">
-                                <h3 class="course-details__curriculum-single-title">Intermediate Level Course</h3>
-                                <p class="course-details__curriculum-single-text">Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since.</p>
-                                <ul class="course-details__curriculum-list style2 list-unstyled">
-                                    <li>
-                                        <div class="course-details__curriculum-list-left">
-                                            <div class="course-details__curriculum-list-left-icon">
-                                                <i class="fa fa-play" aria-hidden="true"></i>
-                                            </div>
-                                            <a href="#" class="course-details__curriculum-list-left-title">Introduction to Editing</a>
-                                            <span>Preview</span>
-                                        </div>
-                                        <div class="course-details__curriculum-list-right">
-                                            <p>16 minutes</p>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="course-details__curriculum-list-left">
-                                            <div class="course-details__curriculum-list-left-icon">
-                                                <i class="fa fa-folder" aria-hidden="true"></i>
-                                            </div>
-                                            <a href="#" class="course-details__curriculum-list-left-title">Introduction to Editing</a>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="course-details__curriculum-list-left">
-                                            <div class="course-details__curriculum-list-left-icon style2">
-                                                <i class="fa fa-comment" aria-hidden="true"></i>
-                                            </div>
-                                            <a href="#" class="course-details__curriculum-list-left-title">Quiz</a>
-                                        </div>
-                                        <div class="course-details__curriculum-list-right">
-                                            <p>6 questions</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div> -->
-                            <!--End Single Course Details Curriculum-->
-                        </div>
-                        <!--End Course Details Curriculum-->
-
-                        <!--Start Course Details Reviews-->
-                        <!-- <div class="course-details__reviews">
-                            <h3 class="course-details__reviews-title">Reviews</h3>
-                            <div class="course-details__progress-review">
-                                <div class="row">
-                                    <div class="col-xl-7 col-lg-7 col-md-7">
-                                        <div class="course-details__progress clearfix">
-                                            <div class="course-details__progress-item">
-                                                <p class="course-details__progress-text">Excellent</p>
-                                                <div class="course-details__progress-bar">
-                                                    <span style="width: 90%;"></span>
-                                                </div>
-                                                <p class="course-details__progress-count">2</p>
-                                            </div>
-
-                                            <div class="course-details__progress-item">
-                                                <p class="course-details__progress-text">Very Good</p>
-                                                <div class="course-details__progress-bar">
-                                                    <span style="width: 80%;"></span>
-                                                </div>
-                                                <p class="course-details__progress-count">1</p>
-                                            </div>
-
-                                            <div class="course-details__progress-item">
-                                                <p class="course-details__progress-text">Average</p>
-                                                <div class="course-details__progress-bar">
-                                                    <span style="width: 70%;"></span>
-                                                </div>
-                                                <p class="course-details__progress-count">1</p>
-                                            </div>
-
-                                            <div class="course-details__progress-item">
-                                                <p class="course-details__progress-text">Poor</p>
-                                                <div class="course-details__progress-bar">
-                                                    <span style="width: 0%;" class="no-bubble"></span>
-                                                </div>
-                                                <p class="course-details__progress-count">0</p>
-                                            </div>
-
-                                            <div class="course-details__progress-item">
-                                                <p class="course-details__progress-text">Terrible</p>
-                                                <div class="course-details__progress-bar">
-                                                    <span style="width: 0%;" class="no-bubble"></span>
-                                                </div>
-                                                <p class="course-details__progress-count">0</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-xl-5 col-lg-5 col-md-5">
-                                        <div class="course-details__review-box">
-                                            <h2 class="course-details__review-count">4.6</h2>
-                                            <div class="course-details__review-stars"> -->
-                                                <!--<i class="fas fa-star"></i>
-                                              <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <p class="course-details__review-text">30 reviews</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-
-                            <!--Start Course Details Comment-->
-                            <!-- <div class="course-details__comment">
-                                <div class="course-details__comment-single">
-                                    <div class="course-details__comment-img">
-                                        <img src="assets/images/resources/course-details-comment-img1.png" alt=""/>
-                                    </div>
-                                    <div class="course-details__comment-text">
-                                        <div class="course-details__comment-text-top">
-                                            <h3 class="course-details__comment-text-name">David Marks</h3>
-                                            <p>3 hours ago</p>
-                                            <div class="course-details__comment-review-stars"> -->
-                                                <!-- <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i> -->
-                                            <!-- </div>
-                                        </div>
-                                        <p class="course-details__comment-text-bottom">Cursus massa at urnaaculis estie. Sed aliquamellus vitae ultrs condmentum lightly believable. If you are going to use a of you need to be sure there.</p>
-                                    </div>
-                                </div>
-
-                                <div class="course-details__comment-single">
-                                    <div class="course-details__comment-img">
-                                        <img src="assets/images/resources/course-details-comment-img2.png" alt=""/>
-                                    </div>
-                                    <div class="course-details__comment-text">
-                                        <div class="course-details__comment-text-top">
-                                            <h3 class="course-details__comment-text-name">Christine Eve</h3>
-                                            <p>3 hours ago</p>
-                                            <div class="course-details__comment-review-stars"> -->
-                                                <!-- <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                        </div>
-                                        <p class="course-details__comment-text-bottom">Cursus massa at urnaaculis estie. Sed aliquamellus vitae ultrs condmentum lightly believable. If you are going to use a of you need to be sure there.</p>
-                                    </div>
-                                </div>
-                            </div> -->
-                            <!--End Course Details Comment-->
-
-                            <!-- <div class="course-details__add-review">
-                                <h2 class="course-details__add-review-title">Add a Review</h2>
-                                <p class="course-details__add-review-text">
-                                    Rate this Course?
-                                    <a href="#" class="fas fa-star active pd-left"></a>
-                                    <a href="#" class="fas fa-star active"></a>
-                                    <a href="#" class="fas fa-star active"></a>
-                                    <a href="#" class="fas fa-star"></a>
-                                    <a href="#" class="fas fa-star"></a>
-                                </p>
-
-                                <div class="course-details__add-review-form">
-                                    <form action="assets/inc/sendemail.php" class="comment-one__form contact-form-validated" novalidate="novalidate">
-                                        <div class="row">
-                                            <div class="col-xl-6 col-lg-6">
-                                                <div class="comment-form__input-box">
-                                                    <input type="text" placeholder="Your name" name="name">
-                                                </div>
-                                                <div class="comment-form__input-box">
-                                                    <input type="email" placeholder="Email address" name="email">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-xl-12 col-lg-12">
-                                                <div class="comment-form__input-box">
-                                                    <textarea name="message" placeholder="Write message"></textarea>
-                                                </div>
-                                                <button type="submit" class="thm-btn comment-form__btn">Submit review</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div> -->
-                        <!--End Course Details Reviews-->
                     </div>
+                    <!--End Course Details Curriculum-->
                 </div>
-                <!--End Course Details Content-->
-
-                <!--Start Course Details Sidebar-->
-                <!-- <div class="col-xl-4 col-lg-4">
-                    <div class="course-details__sidebar">
-                        <div class="course-details__price wow fadeInUp animated" data-wow-delay="0.1s">
-                            <h2 class="course-details__price-amount">$30.00<span><del>$60.00</del></span></h2>
-                            <div class="course-details__price-btn">
-                                <a href="about.html" class="thm-btn">Buy this course</a>
-                            </div>
-                        </div>
-
-                        <div class="course-details__sidebar-meta wow fadeInUp animated" data-wow-delay="0.3s">
-                            <ul class="course-details__sidebar-meta-list list-unstyled">
-                                <li class="course-details__sidebar-meta-list-item">
-                                    <div class="icon">
-                                        <a href=""><i class="far fa-clock"></i></a>
-                                    </div>
-                                    <div class="text">
-                                        <p><a href="#">Durations:<span></span></a></p>
-                                    </div>
-                                </li>
-
-                                <li class="course-details__sidebar-meta-list-item">
-                                    <div class="icon">
-                                        <a href=""><i class="far fa-folder-open"></i></a>
-                                    </div>
-                                    <div class="text">
-                                        <p><a href="#">Lectures:<span>6</span></a></p>
-                                    </div>
-                                </li>
-
-                                <li class="course-details__sidebar-meta-list-item">
-                                    <div class="icon">
-                                        <a href=""><i class="far fa-user-circle"></i></a>
-                                    </div>
-                                    <div class="text">
-                                        <p><a href="#">Students:<span> Max 6</span></a></p>
-                                    </div>
-                                </li>
-
-                                <li class="course-details__sidebar-meta-list-item">
-                                    <div class="icon">
-                                        <a href=""><i class="fas fa-play"></i></a>
-                                    </div>
-                                    <div class="text">
-                                        <p><a href="#">Video:<span>8 hours</span></a></p>
-                                    </div>
-                                </li>
-
-                                <li class="course-details__sidebar-meta-list-item">
-                                    <div class="icon">
-                                        <a href=""><i class="far fa-flag"></i></a>
-                                    </div>
-                                    <div class="text">
-                                        <p><a href="#">Skill Level:<span>Advanced</span></a></p>
-                                    </div>
-                                </li>
-
-                                <li class="course-details__sidebar-meta-list-item">
-                                    <div class="icon">
-                                        <a href=""><i class="far fa-bell"></i></a>
-                                    </div>
-                                    <div class="text">
-                                        <p><a href="#">Language:<span>English</span></a></p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="course-details__new-courses wow fadeInUp animated" data-wow-delay="0.5s">
-                            <h3 class="course-details__new-courses-title">New Courses</h3>
-                            <ul class="course-details__new-courses-list list-unstyled">
-                                <li class="course-details__new-courses-list-item">
-                                    <div class="course-details__new-courses-list-item-img">
-                                        <img src="assets/images/resources/course-details-sidebar-img1.png" alt=""/>
-                                    </div>
-                                    <div class="course-details__new-courses-list-item-content">
-                                        <h4 class="course-details__new-courses-list-item-content-title"><a href="#">React – The Complete <br>Instruction</a></h4>
-                                        <div class="course-details__new-courses-rateing-box">
-                                            <ul class="list-unstyled">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                            </ul>
-                                            <div class="course-details__new-courses-rateing-count">
-                                                <span>(4)</span>
-                                            </div>
-                                        </div>
-                                        <p class="course-details__new-courses-price">$30.00</p>
-                                    </div>
-                                </li> -->
-
-                                <!-- <li class="course-details__new-courses-list-item">
-                                    <div class="course-details__new-courses-list-item-img">
-                                        <img src="assets/images/resources/course-details-sidebar-img2.png" alt=""/>
-                                    </div>
-                                    <div class="course-details__new-courses-list-item-content">
-                                        <h4 class="course-details__new-courses-list-item-content-title"><a href="#">React – The Complete <br>Instruction</a></h4>
-                                        <div class="course-details__new-courses-rateing-box">
-                                            <ul class="list-unstyled">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                            </ul>
-                                            <div class="course-details__new-courses-rateing-count">
-                                                <span>(4)</span>
-                                            </div>
-                                        </div>
-                                        <p class="course-details__new-courses-price">$30.00</p>
-                                    </div>
-                                </li>
-
-                                <li class="course-details__new-courses-list-item">
-                                    <div class="course-details__new-courses-list-item-img">
-                                        <img src="assets/images/resources/course-details-sidebar-img3.png" alt=""/>
-                                    </div>
-                                    <div class="course-details__new-courses-list-item-content">
-                                        <h4 class="course-details__new-courses-list-item-content-title"><a href="#">React – The Complete <br>Instruction</a></h4>
-                                        <div class="course-details__new-courses-rateing-box">
-                                            <ul class="list-unstyled">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                            </ul>
-                                            <div class="course-details__new-courses-rateing-count">
-                                                <span>(4)</span>
-                                            </div>
-                                        </div>
-                                        <p class="course-details__new-courses-price">$30.00</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> -->
-                <!--End Course Details Sidebar-->
             </div>
-        </div>
+            <!--End Course Details Content-->
+    </div>
+    </div>
     </section>
     <!--End Course Details-->
 
 
     <!--Start Footer One-->
     <footer class="footer-one">
-            <div class="footer-one__bg" style="background-image: url(assets/images/backgrounds/footer-v1-bg.jpg);">
-            </div><!-- /.footer-one__bg -->
-            <div class="footer-one__top">
+        <div class="footer-one__bg" style="background-image: url(assets/images/backgrounds/footer.jpg);">
+        </div><!-- /.footer-one__bg -->
+        <div class="footer-one__top">
             <div class="container">
                 <div class="row">
                     <!--Start Footer Widget Column-->
                     <div class="col-xl-3 col-lg-4 col-md-4 wow animated fadeInUp" data-wow-delay="0.1s">
                         <div class="footer-widget__column footer-widget__about">
                             <div class="footer-widget__about-logo">
-                                <a href="index.html"><img src="assets/images/footerlogo/curlybrace logo white-01.png"  height="50" weight="50" alt=""></a>
+                                <a href="index.html"><img src="assets/images/footerlogo/curlybrace logo white-01.png"
+                                        height="50" weight="50" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -693,10 +299,11 @@
                     <div class="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp" data-wow-delay="0.7s">
                         <div class="footer-widget__column footer-widget__contact">
                             <h3 class="footer-widget__title">Contact</h3>
-                            <p class="text">1st Floor PSS Jayam Towers, <br>Teachers Colony, <br>Thoothukudi, <br>Tamil Nadu</p>
+                            <p class="text">1st Floor PSS Jayam Towers, <br>Teachers Colony, <br>Thoothukudi, <br>Tamil
+                                Nadu</p>
                             <p><a href="mailto:info@templatepath.com">curlybraceeducation@gmail.com</a></p>
                             <p class="phone"><a href="tel:0461 350 0010">0461 350 0010
-                            </a></p>
+                                </a></p>
                         </div>
                     </div>
                     <!--End Footer Widget Column-->
@@ -706,9 +313,12 @@
                         <div class="footer-widget__column footer-widget__social-links">
                             <ul class="footer-widget__social-links-list list-unstyled clearfix" style="
                             width: 109%;">
-                                <li><a href="https://www.facebook.com/curlybraceorg"><i class="fab fa-facebook"></i></a></li>
-                                <li><a href="https://www.linkedin.com/company/curlybrace/?viewAsMember=true"><i class="fab fa-linkedin"></i></a></li>
-                                <li><a href="https://www.instagram.com/curlybraceorg/"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/curlybraceorg"><i class="fab fa-facebook"></i></a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/company/curlybrace/?viewAsMember=true"><i
+                                            class="fab fa-linkedin"></i></a></li>
+                                <li><a href="https://www.instagram.com/curlybraceorg/"><i
+                                            class="fab fa-instagram"></i></a></li>
                                 <!-- <li><a href="#"><i class="fab fa-dribbble"></i></a></li> -->
                             </ul>
                         </div>
@@ -726,7 +336,7 @@
                     <div class="col-xl-12">
                         <div class="footer-one__bottom-inner">
                             <div class="footer-one__bottom-text text-center">
-                                <p>&copy; © Copyright 2021 by CurlyBrace Academy</p>
+                                <p>&copy; Copyright 2021 by CurlyBrace Academy</p>
                             </div>
                         </div>
                     </div>
@@ -736,15 +346,6 @@
         <!--End Footer One Bottom-->
     </footer>
     <!--End Footer One-->
-
-
-
-
-
-
-
-
-
     </div><!-- /.page-wrapper -->
 
 
@@ -756,7 +357,8 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/resources/mobilemenu_logo.png" width="155" alt="" /></a>
+                <a href="index.html" aria-label="logo image"><img
+                        src="assets/images/resources/curlybrace logo white-02.png" width="155" alt="" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
@@ -764,20 +366,21 @@
 
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
-                    <i class="icon-phone-call"></i>
-                    <a href="mailto:needhelp@packageName__.com">needhelp@zilom.com</a>
+                    <i class="icon-letter"></i>
+                    <a href="mailto:curlybraceeducation@gmail.com">curlybraceeducation@gmail.com</a>
                 </li>
                 <li>
-                    <i class="icon-letter"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
+                    <i class="icon-phone-call"></i>
+                    <a href="tel:0461 350 0010">0461 350 0010</a>
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__top">
                 <div class="mobile-nav__social">
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-facebook-square"></a>
-                    <a href="#" class="fab fa-pinterest-p"></a>
-                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="https://www.linkedin.com/company/curlybrace/?viewAsMember=true"
+                        class="fab fa-linkedin"></a>
+                    <a href="https://www.facebook.com/curlybraceorg" class="fab fa-facebook-square"></a>
+                    <!-- <a href="#" class="fab fa-pinterest-p"></a> -->
+                    <a href="https://www.instagram.com/curlybraceorg/" class="fab fa-instagram"></a>
                 </div><!-- /.mobile-nav__social -->
             </div><!-- /.mobile-nav__top -->
         </div>
@@ -802,6 +405,8 @@
         <!-- /.search-popup__content -->
     </div>
     <!-- /.search-popup -->
+
+
 
 
 

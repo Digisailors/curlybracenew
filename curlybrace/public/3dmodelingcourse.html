@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css"/>
+    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
     <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
@@ -51,22 +51,22 @@
             <div class="main-header--one__top clearfix">
                 <div class="container">
                     <div class="main-header--one__top-inner clearfix">
-                        <div class="main-header--one__top-left">
+                        <div class="main-header--one__top-left" id="scroll-logo" style="display: none">
                             <div class="main-header--one__top-logo">
-                                <a href="index.html"><img src="assets/images/resources/curlybracelogo.png" alt="" /></a>
+                                <a href="index.html"><img src="assets/images/resources/curlybracelogo.png" height="75"
+                                        width="200" alt="curlybrace logo"></a>
                             </div>
                         </div>
-
                         <div class="main-header--one__top-right clearfix">
                             <ul class="main-header--one__top-social-link list-unstyled clearfix">
                                 <li><a href="https://www.linkedin.com/company/curlybrace/?viewAsMember=true"><i
-                                    class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="https://www.facebook.com/curlybraceorg"><i class="fab fa-facebook"></i></a>
-                        </li>
-                        <li><a href="https://studio.youtube.com/channel/UCfP0da_lgVKh8ylyYr0QOHg"><i
-                                    class="fab fa-youtube"></i></a></li>
-                        <li><a href="https://www.instagram.com/curlybraceorg/"><i
-                                    class="fab fa-instagram"></i></a></li>
+                                            class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="https://www.facebook.com/curlybraceorg"><i class="fab fa-facebook"></i></a>
+                                </li>
+                                <li><a href="https://studio.youtube.com/channel/UCfP0da_lgVKh8ylyYr0QOHg"><i
+                                            class="fab fa-youtube"></i></a></li>
+                                <li><a href="https://www.instagram.com/curlybraceorg/"><i
+                                            class="fab fa-instagram"></i></a></li>
                             </ul>
 
                             <div class="main-header--one__top-contact-info clearfix">
@@ -86,7 +86,9 @@
                                         </div>
                                         <div class="text">
                                             <h6>Mail us @</h6>
-                                            <p><a href="mailto:curlybraceeducation@gmail.com">curlybraceeducation@gmail.com</a></p>
+                                            <p><a
+                                                    href="mailto:curlybraceeducation@gmail.com">curlybraceeducation@gmail.com</a>
+                                            </p>
                                         </div>
                                     </li>
                                 </ul>
@@ -107,14 +109,14 @@
 
                                 <div class="left">
                                     <ul class="main-menu__list">
-                                        <li class="dropdown current">
+                                        <li>
                                             <a href="index.html">Home</a>
                                         </li>
                                         <li><a href="about.html">About</a></li>
                                         <li class="dropdown">
                                             <a href="courses.html">Courses</a>
                                         </li>
-                                        <li class="dropdown">
+                                        <li>
                                             <a href="team.html"> Team</a>
                                         </li>
                                         <!-- <li class="dropdown">
@@ -123,25 +125,6 @@
                                         <li><a href="contact.html">Contact</a></li>
                                     </ul>
                                 </div>
-
-                                <!-- <div class="right">
-                                    <div class="main-menu__right">
-                                        <div class="main-menu__right-login-register">
-                                            <ul class="list-unstyled">
-                                                <li><a href="#">Login</a></li>
-                                                <li><a href="#">Register</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="main-menu__right-cart-search">
-                                            <div class="main-menu__right-cart-box">
-                                                <a href="#"><span class="icon-shopping-cart"></span></a>
-                                            </div>
-                                            <div class="main-menu__right-search-box">
-                                                <a href="#" class="thm-btn search-toggler">Search</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
 
                             </div>
                         </nav>
@@ -153,12 +136,6 @@
         </header>
 
 
-        <div class="stricky-header stricked-menu main-menu">
-            <div class="sticky-header__content">
-
-            </div><!-- /.sticky-header__content -->
-        </div><!-- /.stricky-header -->
-
 
         <div class="stricky-header stricked-menu main-menu">
             <div class="sticky-header__content">
@@ -167,354 +144,374 @@
         </div><!-- /.stricky-header -->
 
 
+        <div class="stricky-header stricked-menu main-menu">
+            <div class="sticky-header__content">
 
-    <!--Page Header Start-->
-    <section class="page-header clearfix" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg);">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="page-header__wrapper clearfix">
-                        <div class="page-header__title">
-                            <h2>Courses</h2>
-                        </div>
-                        <div class="page-header__menu">
-                            <ul class="page-header__menu-list list-unstyled clearfix">
-                                <li><a href="index.html">Home</a></li>
-                                <li class="active">Courses</li>
-                            </ul>
+            </div><!-- /.sticky-header__content -->
+        </div><!-- /.stricky-header -->
+
+
+
+        <!--Page Header Start-->
+        <section class="page-header clearfix"
+            style="background-image: url(assets/images/backgrounds/page-header-bg.jpg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="page-header__wrapper clearfix">
+                            <div class="page-header__title">
+                                <h2>Courses</h2>
+                            </div>
+                            <div class="page-header__menu">
+                                <ul class="page-header__menu-list list-unstyled clearfix">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li class="active">Courses</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
-        </div>
-    </section>
-    <!--Page Header End-->
+        </section>
+        <!--Page Header End-->
 
 
 
-    <!--Courses One Start-->
-    <section class="courses-one courses-one--courses">
-        <div class="container">
-            <div class="section-title text-center">
-                <span class="section-title__tagline">Checkout New List</span>
-                <h2 class="section-title__title">Explore Courses</h2>
+        <!--Courses One Start-->
+        <section class="courses-one courses-one--courses">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="section-title__tagline">Checkout New List</span>
+                    <h2 class="section-title__title">Explore Courses</h2>
+                </div>
+
+                <div class="row">
+                    <!--Start case-studies-one Top-->
+                    <div class="courses-one--courses__top">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                            <div class="courses-one--courses__menu-box">
+                                <ul
+                                    class="project-filter clearfix post-filter has-dynamic-filters-counter list-unstyled">
+                                    <li data-filter=".filter-item" class="active"><span class="filter-text">All</span>
+                                    </li>
+                                    <li data-filter=".featured"><span class="filter-text">Featured</span></li>
+                                    <li data-filter=".business"><span class="filter-text">Business</span></li>
+                                    <li data-filter=".photography"><span class="filter-text">Photography</span></li>
+                                    <li data-filter=".development"><span class="filter-text">Development</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End case-studies-one Top-->
+                </div>
+
+
+                <div class="row filter-layout masonary-layout">
+                    <!--Start Single Courses One-->
+                    <div class="col-xl-3 col-lg-6 col-md-6 filter-item development business">
+                        <div class="courses-one__single wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
+                            <div class="courses-one__single-img">
+                                <img src="assets/images/resources/courses-v1-img1.jpg" alt="" />
+                                <div class="overlay-text">
+                                    <p>Featured</p>
+                                </div>
+                            </div>
+                            <div class="courses-one__single-content">
+                                <div class="courses-one__single-content-overlay-img">
+                                    <img src="assets/images/resources/courses-v1-overlay-img1.png" alt="" />
+                                </div>
+                                <h6 class="courses-one__single-content-name">Kevin Martin</h6>
+                                <h4 class="courses-one__single-content-title"><a href="course-details.html">Become a
+                                        React Developer</a></h4>
+                                <div class="courses-one__single-content-review-box">
+                                    <ul class="list-unstyled">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                    <div class="rateing-box">
+                                        <span>(4)</span>
+                                    </div>
+                                </div>
+                                <p class="courses-one__single-content-price">$30.00</p>
+                                <ul class="courses-one__single-content-courses-info list-unstyled">
+                                    <li></li>
+                                    <li></li>
+                                    <li><a href="artcraft.html">Syllabus</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Courses One-->
+
+                    <!--Start Single Courses One-->
+                    <div class="col-xl-3 col-lg-6 col-md-6 filter-item development business">
+                        <div class="courses-one__single wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
+                            <div class="courses-one__single-img">
+                                <img src="assets/images/resources/digitalmarketingcurlybrace.jpg" alt="" />
+                                <div class="overlay-text">
+                                    <p>Digital Marketing</p>
+                                </div>
+                            </div>
+                            <div class="courses-one__single-content">
+                                <div class="courses-one__single-content-overlay-img">
+
+                                </div>
+
+                                <h4 class="courses-one__single-content-title">Become a Digital Marketer</h4>
+                                <div class="courses-one__single-content-review-box">
+                                    <ul class="list-unstyled">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+
+                                </div>
+                                <!-- <p class="courses-one__single-content-price">$30.00</p>-->
+                                <ul class="courses-one__single-content-courses-info list-unstyled">
+                                    <li></li>
+                                    <li>1 Hours</li>
+                                    <li><a href="artcraft.html">Syllabus</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Courses One-->
+
+                    <!--Start Single Courses One-->
+                    <div class="col-xl-3 col-lg-6 col-md-6 filter-item development business">
+                        <div class="courses-one__single wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
+                            <div class="courses-one__single-img">
+                                <img src="assets/images/resources/digitalmarketingcurlybrace.jpg" alt="" />
+                                <div class="overlay-text">
+                                    <p>Digital Marketing</p>
+                                </div>
+                            </div>
+                            <div class="courses-one__single-content">
+                                <div class="courses-one__single-content-overlay-img">
+
+                                </div>
+
+                                <h4 class="courses-one__single-content-title">Become a Digital Marketer</h4>
+                                <div class="courses-one__single-content-review-box">
+                                    <ul class="list-unstyled">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+
+                                </div>
+                                <!-- <p class="courses-one__single-content-price">$30.00</p>-->
+                                <ul class="courses-one__single-content-courses-info list-unstyled">
+                                    <li></li>
+                                    <li>1 Hours</li>
+                                    <li><a href="artcraft.html">Syllabus</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Courses One-->
+
+                    <!--Start Single Courses One-->
+                    <div class="col-xl-3 col-lg-6 col-md-6 filter-item photography development">
+                        <div class="courses-one__single wow fadeInRight" data-wow-delay="100ms"
+                            data-wow-duration="1000ms">
+                            <div class="courses-one__single-img">
+                                <img src="assets/images/resources/courses-v1-img4.jpg" alt="" />
+                            </div>
+                            <div class="courses-one__single-content">
+                                <div class="courses-one__single-content-overlay-img">
+                                    <img src="assets/images/resources/courses-v1-overlay-img4.png" alt="" />
+                                </div>
+                                <h6 class="courses-one__single-content-name">Sarah Albert</h6>
+                                <h4 class="courses-one__single-content-title"><a href="course-details.html">Become a
+                                        React Developer</a></h4>
+                                <div class="courses-one__single-content-review-box">
+                                    <ul class="list-unstyled">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                    <div class="rateing-box">
+                                        <span>(4)</span>
+                                    </div>
+                                </div>
+                                <p class="courses-one__single-content-price">$30.00</p>
+                                <ul class="courses-one__single-content-courses-info list-unstyled">
+                                    <li></li>
+                                    <li></li>
+                                    <li><a href="artcraft.html">Syllabus</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Courses One-->
+
+                    <!--Start Single Courses One-->
+                    <div class="col-xl-3 col-lg-6 col-md-6 filter-item development photography featured">
+                        <div class="courses-one__single wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
+                            <div class="courses-one__single-img">
+                                <img src="assets/images/resources/courses-v1-img5.jpg" alt="" />
+                            </div>
+                            <div class="courses-one__single-content">
+                                <div class="courses-one__single-content-overlay-img">
+                                    <img src="assets/images/resources/courses-v1-overlay-img5.png" alt="" />
+                                </div>
+                                <h6 class="courses-one__single-content-name">Sarah Albert</h6>
+                                <h4 class="courses-one__single-content-title"><a href="course-details.html">Become a
+                                        React Developer</a></h4>
+                                <div class="courses-one__single-content-review-box">
+                                    <ul class="list-unstyled">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                    <div class="rateing-box">
+                                        <span>(4)</span>
+                                    </div>
+                                </div>
+                                <p class="courses-one__single-content-price">$30.00</p>
+                                <ul class="courses-one__single-content-courses-info list-unstyled">
+                                    <li></li>
+                                    <li></li>
+                                    <li><a href="artcraft.html">Syllabus</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Courses One-->
+
+                    <!--Start Single Courses One-->
+                    <div class="col-xl-3 col-lg-6 col-md-6 filter-item business development photography">
+                        <div class="courses-one__single wow fadeInLeft" data-wow-delay="100ms"
+                            data-wow-duration="1000ms">
+                            <div class="courses-one__single-img">
+                                <img src="assets/images/resources/courses-v1-img6.jpg" alt="" />
+                                <div class="overlay-text">
+                                    <p>Featured</p>
+                                </div>
+                            </div>
+                            <div class="courses-one__single-content">
+                                <div class="courses-one__single-content-overlay-img">
+                                    <img src="assets/images/resources/courses-v1-overlay-img6.png" alt="" />
+                                </div>
+                                <h6 class="courses-one__single-content-name">Kevin Martin</h6>
+                                <h4 class="courses-one__single-content-title"><a href="course-details.html">Become a
+                                        React Developer</a></h4>
+                                <div class="courses-one__single-content-review-box">
+                                    <ul class="list-unstyled">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                    <div class="rateing-box">
+                                        <span>(4)</span>
+                                    </div>
+                                </div>
+                                <p class="courses-one__single-content-price">$30.00</p>
+                                <ul class="courses-one__single-content-courses-info list-unstyled">
+                                    <li></li>
+                                    <li></li>
+                                    <li><a href="artcraft.html">Syllabus</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Courses One-->
+
+                    <!--Start Single Courses One-->
+                    <div class="col-xl-3 col-lg-6 col-md-6 filter-item featured photography development">
+                        <div class="courses-one__single wow fadeInRight" data-wow-delay="0ms"
+                            data-wow-duration="1000ms">
+                            <div class="courses-one__single-img">
+                                <img src="assets/images/resources/courses-v1-img7.jpg" alt="" />
+                            </div>
+                            <div class="courses-one__single-content">
+                                <div class="courses-one__single-content-overlay-img">
+                                    <img src="assets/images/resources/courses-v1-overlay-img7.png" alt="" />
+                                </div>
+                                <h6 class="courses-one__single-content-name">Christine Eve</h6>
+                                <h4 class="courses-one__single-content-title"><a href="course-details.html">Become a
+                                        React Developer</a></h4>
+                                <div class="courses-one__single-content-review-box">
+                                    <ul class="list-unstyled">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                    <div class="rateing-box">
+                                        <span>(4)</span>
+                                    </div>
+                                </div>
+                                <p class="courses-one__single-content-price">$30.00</p>
+                                <ul class="courses-one__single-content-courses-info list-unstyled">
+                                    <li></li>
+                                    <li></li>
+                                    <li><a href="artcraft.html">Syllabus</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Courses One-->
+
+                    <!--Start Single Courses One-->
+                    <div class="col-xl-3 col-lg-6 col-md-6 filter-item photography featured">
+                        <div class="courses-one__single wow fadeInRight" data-wow-delay="100ms"
+                            data-wow-duration="1000ms">
+                            <div class="courses-one__single-img">
+                                <img src="assets/images/resources/courses-v1-img8.jpg" alt="" />
+                                <div class="overlay-text">
+                                    <p>free</p>
+                                </div>
+                            </div>
+                            <div class="courses-one__single-content">
+                                <div class="courses-one__single-content-overlay-img">
+                                    <img src="assets/images/resources/courses-v1-overlay-img8.png" alt="" />
+                                </div>
+                                <h6 class="courses-one__single-content-name">David Cooper</h6>
+                                <h4 class="courses-one__single-content-title"><a href="course-details.html">Become a
+                                        React Developer</a></h4>
+                                <div class="courses-one__single-content-review-box">
+                                    <ul class="list-unstyled">
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                    <div class="rateing-box">
+                                        <span>(4)</span>
+                                    </div>
+                                </div>
+                                <p class="courses-one__single-content-price">$30.00</p>
+                                <ul class="courses-one__single-content-courses-info list-unstyled">
+                                    <li></li>
+                                    <li></li>
+                                    <li><a href="artcraft.html">Syllabus</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Courses One-->
+                </div>
             </div>
-
-            <div class="row">
-                <!--Start case-studies-one Top-->
-                <div class="courses-one--courses__top">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                        <div class="courses-one--courses__menu-box">
-                            <ul class="project-filter clearfix post-filter has-dynamic-filters-counter list-unstyled">
-                                <li data-filter=".filter-item" class="active"><span class="filter-text">All</span></li>
-                                <li data-filter=".featured"><span class="filter-text">Featured</span></li>
-                                <li data-filter=".business"><span class="filter-text">Business</span></li>
-                                <li data-filter=".photography"><span class="filter-text">Photography</span></li>
-                                <li data-filter=".development"><span class="filter-text">Development</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--End case-studies-one Top-->
-            </div>
-
-
-            <div class="row filter-layout masonary-layout">
-                <!--Start Single Courses One-->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item development business">
-                    <div class="courses-one__single wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
-                        <div class="courses-one__single-img">
-                            <img src="assets/images/resources/courses-v1-img1.jpg" alt=""/>
-                            <div class="overlay-text">
-                                <p>Featured</p>
-                            </div>
-                        </div>
-                        <div class="courses-one__single-content">
-                            <div class="courses-one__single-content-overlay-img">
-                                <img src="assets/images/resources/courses-v1-overlay-img1.png" alt=""/>
-                            </div>
-                            <h6 class="courses-one__single-content-name">Kevin Martin</h6>
-                            <h4 class="courses-one__single-content-title"><a href="course-details.html">Become a React Developer</a></h4>
-                            <div class="courses-one__single-content-review-box">
-                                <ul class="list-unstyled">
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                </ul>
-                                <div class="rateing-box">
-                                    <span>(4)</span>
-                                </div>
-                            </div>
-                            <p class="courses-one__single-content-price">$30.00</p>
-                            <ul class="courses-one__single-content-courses-info list-unstyled">
-                                <li></li>
-                                <li></li>
-                                <li><a href ="artcraft.html">Syllabus</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--End Single Courses One-->
-
-                <!--Start Single Courses One-->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item development business">
-                    <div class="courses-one__single wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
-                        <div class="courses-one__single-img">
-                            <img src="assets/images/resources/digitalmarketingcurlybrace.jpg" alt=""/>
-                            <div class="overlay-text">
-                                <p>Digital Marketing</p>
-                            </div>
-                        </div>
-                        <div class="courses-one__single-content">
-                            <div class="courses-one__single-content-overlay-img">
-                                
-                            </div>
-                            
-                            <h4 class="courses-one__single-content-title">Become a Digital Marketer</h4>
-                            <div class="courses-one__single-content-review-box">
-                                <ul class="list-unstyled">
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                </ul>
-                            
-                            </div>
-                            <!-- <p class="courses-one__single-content-price">$30.00</p>-->
-                            <ul class="courses-one__single-content-courses-info list-unstyled">
-                                <li></li>
-                                <li>1 Hours</li>
-                                <li><a href ="artcraft.html">Syllabus</a></li>
-                            </ul> 
-                        </div>
-                    </div>
-                </div>
-                <!--End Single Courses One-->
-
-                <!--Start Single Courses One-->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item development business">
-                    <div class="courses-one__single wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
-                        <div class="courses-one__single-img">
-                            <img src="assets/images/resources/digitalmarketingcurlybrace.jpg" alt=""/>
-                            <div class="overlay-text">
-                                <p>Digital Marketing</p>
-                            </div>
-                        </div>
-                        <div class="courses-one__single-content">
-                            <div class="courses-one__single-content-overlay-img">
-                                
-                            </div>
-                            
-                            <h4 class="courses-one__single-content-title">Become a Digital Marketer</h4>
-                            <div class="courses-one__single-content-review-box">
-                                <ul class="list-unstyled">
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                </ul>
-                            
-                            </div>
-                            <!-- <p class="courses-one__single-content-price">$30.00</p>-->
-                            <ul class="courses-one__single-content-courses-info list-unstyled">
-                                <li></li>
-                                <li>1 Hours</li>
-                                <li><a href ="artcraft.html">Syllabus</a></li>
-                            </ul> 
-                        </div>
-                    </div>
-                </div>
-                <!--End Single Courses One-->
-
-                <!--Start Single Courses One-->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item photography development">
-                    <div class="courses-one__single wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
-                        <div class="courses-one__single-img">
-                            <img src="assets/images/resources/courses-v1-img4.jpg" alt=""/>
-                        </div>
-                        <div class="courses-one__single-content">
-                            <div class="courses-one__single-content-overlay-img">
-                                <img src="assets/images/resources/courses-v1-overlay-img4.png" alt=""/>
-                            </div>
-                            <h6 class="courses-one__single-content-name">Sarah Albert</h6>
-                            <h4 class="courses-one__single-content-title"><a href="course-details.html">Become a React Developer</a></h4>
-                            <div class="courses-one__single-content-review-box">
-                                <ul class="list-unstyled">
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                </ul>
-                                <div class="rateing-box">
-                                    <span>(4)</span>
-                                </div>
-                            </div>
-                            <p class="courses-one__single-content-price">$30.00</p>
-                            <ul class="courses-one__single-content-courses-info list-unstyled">
-                                <li></li>
-                                <li></li>
-                                <li><a href ="artcraft.html">Syllabus</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--End Single Courses One-->
-
-                <!--Start Single Courses One-->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item development photography featured">
-                    <div class="courses-one__single wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
-                        <div class="courses-one__single-img">
-                            <img src="assets/images/resources/courses-v1-img5.jpg" alt=""/>
-                        </div>
-                        <div class="courses-one__single-content">
-                            <div class="courses-one__single-content-overlay-img">
-                                <img src="assets/images/resources/courses-v1-overlay-img5.png" alt=""/>
-                            </div>
-                            <h6 class="courses-one__single-content-name">Sarah Albert</h6>
-                            <h4 class="courses-one__single-content-title"><a href="course-details.html">Become a React Developer</a></h4>
-                            <div class="courses-one__single-content-review-box">
-                                <ul class="list-unstyled">
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                </ul>
-                                <div class="rateing-box">
-                                    <span>(4)</span>
-                                </div>
-                            </div>
-                            <p class="courses-one__single-content-price">$30.00</p>
-                            <ul class="courses-one__single-content-courses-info list-unstyled">
-                                <li></li>
-                                <li></li>
-                                <li><a href ="artcraft.html">Syllabus</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--End Single Courses One-->
-
-                <!--Start Single Courses One-->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item business development photography">
-                    <div class="courses-one__single wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">
-                        <div class="courses-one__single-img">
-                            <img src="assets/images/resources/courses-v1-img6.jpg" alt=""/>
-                            <div class="overlay-text">
-                                <p>Featured</p>
-                            </div>
-                        </div>
-                        <div class="courses-one__single-content">
-                            <div class="courses-one__single-content-overlay-img">
-                                <img src="assets/images/resources/courses-v1-overlay-img6.png" alt=""/>
-                            </div>
-                            <h6 class="courses-one__single-content-name">Kevin Martin</h6>
-                            <h4 class="courses-one__single-content-title"><a href="course-details.html">Become a React Developer</a></h4>
-                            <div class="courses-one__single-content-review-box">
-                                <ul class="list-unstyled">
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                </ul>
-                                <div class="rateing-box">
-                                    <span>(4)</span>
-                                </div>
-                            </div>
-                            <p class="courses-one__single-content-price">$30.00</p>
-                            <ul class="courses-one__single-content-courses-info list-unstyled">
-                                <li></li>
-                                <li></li>
-                                <li><a href ="artcraft.html">Syllabus</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--End Single Courses One-->
-
-                <!--Start Single Courses One-->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item featured photography development">
-                    <div class="courses-one__single wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
-                        <div class="courses-one__single-img">
-                            <img src="assets/images/resources/courses-v1-img7.jpg" alt=""/>
-                        </div>
-                        <div class="courses-one__single-content">
-                            <div class="courses-one__single-content-overlay-img">
-                                <img src="assets/images/resources/courses-v1-overlay-img7.png" alt=""/>
-                            </div>
-                            <h6 class="courses-one__single-content-name">Christine Eve</h6>
-                            <h4 class="courses-one__single-content-title"><a href="course-details.html">Become a React Developer</a></h4>
-                            <div class="courses-one__single-content-review-box">
-                                <ul class="list-unstyled">
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                </ul>
-                                <div class="rateing-box">
-                                    <span>(4)</span>
-                                </div>
-                            </div>
-                            <p class="courses-one__single-content-price">$30.00</p>
-                            <ul class="courses-one__single-content-courses-info list-unstyled">
-                                <li></li>
-                                <li></li>
-                                <li><a href ="artcraft.html">Syllabus</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--End Single Courses One-->
-
-                <!--Start Single Courses One-->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item photography featured">
-                    <div class="courses-one__single wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
-                        <div class="courses-one__single-img">
-                            <img src="assets/images/resources/courses-v1-img8.jpg" alt=""/>
-                            <div class="overlay-text">
-                                <p>free</p>
-                            </div>
-                        </div>
-                        <div class="courses-one__single-content">
-                            <div class="courses-one__single-content-overlay-img">
-                                <img src="assets/images/resources/courses-v1-overlay-img8.png" alt=""/>
-                            </div>
-                            <h6 class="courses-one__single-content-name">David Cooper</h6>
-                            <h4 class="courses-one__single-content-title"><a href="course-details.html">Become a React Developer</a></h4>
-                            <div class="courses-one__single-content-review-box">
-                                <ul class="list-unstyled">
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                </ul>
-                                <div class="rateing-box">
-                                    <span>(4)</span>
-                                </div>
-                            </div>
-                            <p class="courses-one__single-content-price">$30.00</p>
-                            <ul class="courses-one__single-content-courses-info list-unstyled">
-                                <li></li>
-                                <li></li>
-                                <li><a href ="artcraft.html">Syllabus</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--End Single Courses One-->
-            </div>
-        </div>
-    </section>
-    <!--Courses One End-->
+        </section>
+        <!--Courses One End-->
 
 
 
@@ -523,9 +520,10 @@
 
 
 
-    <!--Start Footer One-->
+        <!--Start Footer One-->
         <footer class="footer-one">
-            <div class="footer-one__bg" style="background-image: url(assets/images/backgrounds/curlybracebackground.jpg);">
+            <div class="footer-one__bg"
+                style="background-image: url(assets/images/backgrounds/curlybracebackground.jpg);">
             </div><!-- /.footer-one__bg -->
             <div class="footer-one__top">
                 <div class="container">
@@ -534,7 +532,8 @@
                         <div class="col-xl-2 col-lg-4 col-md-4 wow animated fadeInUp" data-wow-delay="0.1s">
                             <div class="footer-widget__column footer-widget__about">
                                 <div class="footer-widget__about-logo">
-                                    <a href="index.html"><img src="assets/images/backgrounds/curlybracebackground.jpg" alt=""></a>
+                                    <a href="index.html"><img src="assets/images/backgrounds/curlybracebackground.jpg"
+                                            alt=""></a>
                                 </div>
                             </div>
                         </div>
@@ -580,7 +579,7 @@
                                 <p class="text">1st Floor PSS Jayam Towers, Teams Colony, Thoothukudi, Tamil Nadu</p>
                                 <p><a href="mailto:info@templatepath.com">curlybraceeducation@gmail.com</a></p>
                                 <p class="phone"><a href="tel:0461 350 0010">0461 350 0010
-                                </a></p>
+                                    </a></p>
                             </div>
                         </div>
                         <!--End Footer Widget Column-->
@@ -589,9 +588,12 @@
                         <div class="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp" data-wow-delay="0.9s">
                             <div class="footer-widget__column footer-widget__social-links">
                                 <ul class="footer-widget__social-links-list list-unstyled clearfix">
-                                    <li><a href="https://www.facebook.com/curlybraceorg"><i class="fab fa-facebook"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/company/curlybrace/?viewAsMember=true"><i class="fab fa-linkedin"></i></a></li>
-                                    <li><a href="https://www.instagram.com/curlybraceorg/"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://www.facebook.com/curlybraceorg"><i
+                                                class="fab fa-facebook"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/curlybrace/?viewAsMember=true"><i
+                                                class="fab fa-linkedin"></i></a></li>
+                                    <li><a href="https://www.instagram.com/curlybraceorg/"><i
+                                                class="fab fa-instagram"></i></a></li>
                                     <!-- <li><a href="#"><i class="fab fa-dribbble"></i></a></li> -->
                                 </ul>
                             </div>
@@ -639,8 +641,8 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/resources/mobilemenu_logo.png"
-                        width="155" alt="" /></a>
+                <a href="index.html" aria-label="logo image"><img
+                        src="assets/images/resources/curlybrace logo white-02.png" width="155" alt="" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
@@ -648,17 +650,18 @@
 
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
-                    <i class="icon-phone-call"></i>
+                    <i class="icon-letter"></i>
                     <a href="mailto:curlybraceeducation@gmail.com">curlybraceeducation@gmail.com</a>
                 </li>
                 <li>
-                    <i class="icon-letter"></i>
+                    <i class="icon-phone-call"></i>
                     <a href="tel:0461 350 0010">0461 350 0010</a>
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__top">
                 <div class="mobile-nav__social">
-                    <a href="https://www.linkedin.com/company/curlybrace/?viewAsMember=true" class="fab fa-linkedin"></a>
+                    <a href="https://www.linkedin.com/company/curlybrace/?viewAsMember=true"
+                        class="fab fa-linkedin"></a>
                     <a href="https://www.facebook.com/curlybraceorg" class="fab fa-facebook-square"></a>
                     <!-- <a href="#" class="fab fa-pinterest-p"></a> -->
                     <a href="https://www.instagram.com/curlybraceorg/" class="fab fa-instagram"></a>
@@ -686,6 +689,8 @@
         <!-- /.search-popup__content -->
     </div>
     <!-- /.search-popup -->
+
+
 
 
 

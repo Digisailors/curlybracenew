@@ -194,3 +194,6 @@
 .icon-play:before {
   content: "\e92e";
 }
+.stricky-fixed #scroll-logo{
+  display: block !important;
+}
