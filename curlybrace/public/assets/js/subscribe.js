@@ -1,4 +1,3 @@
-
 let submitted = false;
 
 function validateEmail() {
@@ -16,7 +15,7 @@ function validateEmail() {
     return true;
 }
 
-function validateForm() {
+function validateSubscribe() {
     if (!validateEmail()) {
         alert("Form not submitted"); //Validation Message
         return false;
