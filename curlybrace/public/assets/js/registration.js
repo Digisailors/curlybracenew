@@ -14,20 +14,20 @@ function validateName() {
     return true;
 }
 
-// function validateEmail() {
-//     let email = document.getElementById("c-email").value;
-//     if (email.length == 0) {
-//         alert("Email can't be blank"); //Validation Message
-//         return false;
-//     }
+function validateEmail() {
+    let email = document.getElementById("c-email").value;
+    if (email.length == 0) {
+        alert("Email can't be blank"); //Validation Message
+        return false;
+    }
 
-//     if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
-//         alert("Please enter a correct email address"); //Validation Message
-//         return false;
-//     }
+    if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+        alert("Please enter a correct email address"); //Validation Message
+        return false;
+    }
 
-//     return true;
-// }
+    return true;
+}
 
 function validatePhone() {
     let phone = document.getElementById("c-phone").value;
@@ -56,11 +56,11 @@ function validateCourse() {
 
 
 function validateRegister() {
-    if (!validateName()) {
+    if (!validateName() || !validateEmail() || !validatePhone) {
         alert("Form not submitted"); //Validation Message
         return false;
     } else {
-        alert("Thank you for registration");
+        alert("Thank you for choosing our academy, Our executive will contact you soon.");
         submitted = true;
         return true;
     }

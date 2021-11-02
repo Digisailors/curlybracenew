@@ -20,7 +20,7 @@ function validateSubscribe() {
         alert("Form not submitted"); //Validation Message
         return false;
     } else {
-        alert("Thank you! You have subscribed our page");
+        alert("Thank you for subscribing to Curlybrace Academy!, you'll get the course offers,and more pieces of information in your Mail.");
         submitted = true;
         return true;
     }
